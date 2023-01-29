@@ -18,3 +18,19 @@
 
 // practice factorial 
 
+// for in loop
+
+let obj= {
+    a :90,
+    b :45,
+    c :56,
+    d :57,
+    e :23
+}
+for (let a in obj){
+    console.log("Marks of " + a + " are " + obj[a])
+}
+// for off loon\p
+for ( let b of " Abdul jabbar"){
+    console.log(b)
+}
